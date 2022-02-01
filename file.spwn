@@ -2,13 +2,14 @@ gs = import gamescene
 gettinginfo = counter(1)
 bits = 10 // enter your value here
 infolegth= counter()
+
 on(gs.button_a(), !{
     gettinginfo*=10
     gettinginfo+=1
     infolegth+=1
     if infolegth==bits+2{gettinginfo-=gettinginfo}
 }
-}
+
 on(gs.button_b(), !{
     gettinginfo*=10
     infolegth+=1
