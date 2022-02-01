@@ -1,4 +1,4 @@
-# spwn-online-a
+# spwn-online-a (version A)
 
 Code capable of creating some kind of connection between GD, and an external program that will simulate pressing the left and right buttons, thereby sending information to the game.
 
