@@ -1,6 +1,6 @@
 gs = import gamescene
 gettinginfo = counter()
-bits = counter=(10) // enter your value here
+bits = counter(10) // enter your value here
 infolegth= counter()
 
 on(gs.button_a(), !{
